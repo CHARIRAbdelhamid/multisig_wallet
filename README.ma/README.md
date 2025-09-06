@@ -1,11 +1,11 @@
-🛡️ MultiSig712Optimized
+ MultiSig712Optimized
 
 A modern, minimal yet robust multisignature wallet that uses EIP-712 typed data signatures for off-chain approvals and executes transactions on-chain only once enough valid signatures are collected.
 
 This saves gas compared to legacy multisigs that require each owner to confirm on-chain, while preserving strong security guarantees.
 Owners and the signature threshold can be managed securely through multisig-approved self-calls.
 
-✨ Features
+ Features
 
 EIP-712 typed data signing
 → Owners sign transactions off-chain, producing replay-protected signatures.
@@ -27,3 +27,4 @@ Deadline & gas limit controls
 
 Reentrancy safe
 → Nonce incremented before external calls and nonReentrant guard prevents attacks.
+
